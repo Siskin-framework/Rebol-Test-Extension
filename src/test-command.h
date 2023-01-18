@@ -5,9 +5,9 @@
 
 #include <stdlib.h>
 #include <math.h>
-#include "reb-host.h"
-#include "host-lib.h"
 #include <stdio.h>
+
+#include "rebol-extension.h"
 
 //#define USE_TRACES
 #ifdef  USE_TRACES

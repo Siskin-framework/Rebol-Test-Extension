@@ -42,10 +42,6 @@ r3-extension: [
 		%test-command-info.c
 		%test-command-new.c
 	]
-	include: [
-		%src/
-		%rebol/src/include/
-	]
 	defines: [ENDIAN_LITTLE]
 	cflags:  [-fpermissive]
 	flags:   [-O2 shared]
